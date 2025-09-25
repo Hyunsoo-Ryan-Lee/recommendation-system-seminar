@@ -4,6 +4,11 @@
 
 ```
 recommendation-system-seminar/
+.
+├── app/                             # 영화 추천 웹앱 폴더
+│   ├── movie_app.py                 # Streamlit 웹 애플리케이션
+│   └── no_image.jpg         
+│
 ├── dataset/                         # 데이터셋 폴더
 │   ├── products.csv                 # 상품 데이터
 │   ├── users.csv                    # 사용자 데이터
@@ -15,10 +20,6 @@ recommendation-system-seminar/
 │   ├── 01_recommendation.ipynb      # 기본 추천 시스템 모델 실습
 │   ├── 02_tmdb_줄거리기반추천.ipynb   # TMDB 줄거리 기반 추천 구현
 │   └── 03_tmdb_인물기반추천.ipynb     # TMDB 인물 기반 추천 구현
-│
-├── app/                             # 영화 추천 웹앱 폴더
-│   ├── movie_app.py                 # Streamlit 웹 애플리케이션
-│   └── no_image.jpg         
 │
 ├── models/                          # 학습된 모델 저장 폴더
 │
