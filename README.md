@@ -11,13 +11,17 @@ recommendation-system-seminar/
 │   ├── tmdb_movies.parquet          # TMDB 영화 데이터
 │   └── tmdb_credits.parquet         # TMDB 출연진 데이터
 │
+├── practice/                        # 추천 모델 실습 폴더
+│   ├── 01_recommendation.ipynb      # 기본 추천 시스템 모델 실습
+│   ├── 02_tmdb_줄거리기반추천.ipynb   # TMDB 줄거리 기반 추천 구현
+│   └── 03_tmdb_인물기반추천.ipynb     # TMDB 인물 기반 추천 구현
+│
+├── app/                             # 영화 추천 웹앱 폴더
+│   ├── movie_app.py                 # Streamlit 웹 애플리케이션
+│   └── no_image.jpg         
+│
 ├── models/                          # 학습된 모델 저장 폴더
 │
-├── 01_recommendation.ipynb          # 기본 추천 시스템 모델 실습
-├── 02_tmdb_줄거리기반추천.ipynb       # TMDB 줄거리 기반 추천 구현
-├── 03_tmdb_인물기반추천.ipynb         # TMDB 인물 기반 추천 구현
-├── movie_app.py                     # Streamlit 웹 애플리케이션
-├── requirements.txt                 # 필요한 라이브러리 목록
 └── README.md                        
 ```
 ## 📊 데이터셋 설명

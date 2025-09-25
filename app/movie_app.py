@@ -16,9 +16,9 @@ tmdb = TMDb()
 tmdb.api_key = API_KEY
 
 # pkl 객체 load
-movie_master = pd.read_parquet('dataset/tmdb_movies.parquet')[['id', 'title']]
-contents_cos_sim = joblib.load('models/contents_cos_sim.pkl')  # 줄거리 기반 유사도
-info_cos_sim = joblib.load('models/info_cos_sim.pkl')  # 등장인물 기반 유사도
+movie_master = pd.read_parquet('../dataset/tmdb_movies.parquet')[['id', 'title']]
+contents_cos_sim = joblib.load('../models/contents_cos_sim.pkl')  # 줄거리 기반 유사도
+info_cos_sim = joblib.load('../models/info_cos_sim.pkl')  # 등장인물 기반 유사도
 
 lang_dict = {
     "English": "en-US",
